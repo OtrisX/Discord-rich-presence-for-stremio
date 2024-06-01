@@ -1,0 +1,12 @@
+{
+	"name": "stremio-addon-discordrichpresence",
+	"version": "0.0.1",
+	"description": "",
+	"scripts": {
+		"web": "node --env-file=.env server.js --launch"
+	},
+	"dependencies": {
+		"discord-rpc": "^4.0.1",
+		"stremio-addon-sdk": "1.1.x"
+	}
+}
